@@ -319,6 +319,10 @@ input[type="submit"] {
 	}
 }
 
+.quote__text {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
@@ -353,4 +357,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
