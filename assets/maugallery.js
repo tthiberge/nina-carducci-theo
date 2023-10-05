@@ -150,7 +150,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          index = i - 1 ;
         }
       });
       next =
@@ -189,7 +189,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i;
+          index = i + 1;
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
@@ -239,8 +239,8 @@
       if ($(this).hasClass("active-tag")) {
         return;
       }
-      $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      $(".active-tag").removeClass("active active-tag text-white").css("background-color", "");
+      $(this).addClass("active-tag rounded-0 text-white").css("background-color", "#BEB45A");
 
       var tag = $(this).data("images-toggle");
 
