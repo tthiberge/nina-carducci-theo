@@ -261,6 +261,14 @@ input[type="submit"] {
   /* text-align: center; */
 }
 
+.service__price p {
+  font-size: calc(1.275rem + 0.3vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
