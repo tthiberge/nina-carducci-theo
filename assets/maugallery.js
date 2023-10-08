@@ -240,7 +240,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag text-white").css("background-color", "");
-      $(this).addClass("active-tag rounded-0 text-white").css("background-color", "#E5975F");
+      $(this).addClass("active-tag rounded-0 text-white").css("background-color", "#1D6154");
 
       var tag = $(this).data("images-toggle");
 
