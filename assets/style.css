@@ -269,6 +269,22 @@ input[type="submit"] {
   line-height: 1.2;
 }
 
+
+.informations_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.informations_contact p {
+  margin: 0px;
+  text-align: center;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -370,7 +386,11 @@ input[type="submit"] {
 	#about, #contact {
 		padding-inline: 2em;
 		padding-block: 2em;
+
 	}
+  .informations_contact {
+    margin-bottom: 2em;
+  }
 	form {
 		width: 100%;
 	}
