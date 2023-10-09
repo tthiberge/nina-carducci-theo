@@ -287,6 +287,7 @@ input[type="submit"] {
 
 .website {
   text-decoration: none;
+  color: black;
 }
 
 @media all and (max-width: 1180px) {
